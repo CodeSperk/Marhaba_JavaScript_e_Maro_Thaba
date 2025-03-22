@@ -9,7 +9,7 @@ wakeUpTime = "8:30";
 console.log(wakeUpTime);
 
 const wastedTime = "1hr";
-console.log(wakeUpTime);
+console.log(wastedTime);
 
 const borrow = 5000;
 console.log(borrow);
