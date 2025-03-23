@@ -57,3 +57,18 @@ const college = {
 };
 
 const result = college.groups[1];
+
+//problem 8
+const family = {
+  father: {
+    name: "Sajjad Sarkar",
+    occupation: "Sergent",
+    age: 54,
+  },
+  mother: {
+    name: "Sajeda",
+    occupation: "Home Maker",
+    age: 55,
+  },
+};
+const ageSum = family.mother.age + family.father.age;
