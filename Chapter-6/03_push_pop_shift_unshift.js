@@ -3,7 +3,6 @@ const nums = [10, 20, 30, 40, 50];
 nums.push(60);
 
 // problem 2
-const names = ["Sajib", "Sagar", "Sakib", "Sohel"];
 names.push("Sumon");
 
 // problem 3
