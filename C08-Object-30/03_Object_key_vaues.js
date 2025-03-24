@@ -87,12 +87,14 @@ const buildings = {
   type: "commercial",
 };
 
-for (const prop in buildings) {
-  if (typeof buildings[prop] === "object" && buildings[prop] !== null) {
-    for (const key in buildings[prop]) {
-      console.log(`${prop}.${key} : ${buildings[prop][key]}`);
+for (const key of keys) {
+  if (typeof buildings[key] == "object" && buildings[prop] !== null) {
+    for (const prop in buildings[key]) {
+      const propValues = buildings[key][prop];
+      console.log(`${key}.${prop} : ${propValues}`);
     }
   } else {
-    console.log(prop + " : " + buildings[prop]);
+    const values = buildings[key];
+    console.log(`${key} : ${values}`);
   }
 }
