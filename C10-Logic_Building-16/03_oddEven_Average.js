@@ -89,5 +89,3 @@ function oddArr(arr) {
 }
 const numsArr = [12, 31, 11, 12];
 const result = oddArr(numsArr);
-
-console.log(result);

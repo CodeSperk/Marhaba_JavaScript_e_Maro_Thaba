@@ -10,7 +10,7 @@ function calcutaleIncomeTag(income) {
     return income * (40 / 100);
   }
 }
-// const result = calcutaleIncomeTag(200001);
+// const result = calcutaleIncomeTax(200001);
 
 //problem 2
 function deliveryCharge(weight) {
