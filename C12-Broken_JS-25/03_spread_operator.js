@@ -1,7 +1,6 @@
 //probelm 1
 const productType = "Tech";
 const technology = ["Condition", "Array", "loop"];
-
 const newArray = [productType, ...technology];
 
 //problem 2
