@@ -1,1 +1,1 @@
-result
+.split("").reverse().join("")
