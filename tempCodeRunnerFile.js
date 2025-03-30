@@ -1,1 +1,1 @@
-.split("").reverse().join("")
+[1, 2, 3, 4]
